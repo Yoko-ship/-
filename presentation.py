@@ -7,7 +7,6 @@ import tkinter as tk
 import time
 
 api_key = "AIzaSyCrj3saz9DtSmuesXjHKLR7HIAxRJD3RrY"
-api_captcha = "5d8752a4fa70e6fe7296a3f280e3c44a"
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 user_input = ""
